@@ -15789,7 +15789,7 @@ button.close {
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background: white url("../images/landing.png") repeat top right;
+  background: white url(../images/landing.png) repeat top right;
   background-size: 30%;
 }
 
