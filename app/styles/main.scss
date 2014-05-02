@@ -11,7 +11,10 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 body {
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #ffffff url(../images/landing.png) repeat top right;
+    background-color: #fff;
+    background-image: url("../images/landing.png");
+    background-repeat: repeat;
+    background-position: left top;
     background-size: 30%;
 }
 

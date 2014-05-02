@@ -15789,11 +15789,14 @@ button.close {
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background: white url(../images/landing.png) repeat top right;
+  background-color: #fff;
+  background-image: url("../images/landing.png");
+  background-repeat: repeat;
+  background-position: left top;
   background-size: 30%;
 }
 
-/* line 18, main.scss */
+/* line 21, main.scss */
 .text {
   background: #fba722;
   border-radius: 20px;
@@ -15809,7 +15812,7 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* line 33, main.scss */
+  /* line 36, main.scss */
   .container {
     max-width: 730px;
   }
