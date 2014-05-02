@@ -223,7 +223,8 @@ module.exports = function (grunt) {
       css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
       options: {
         assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/images'],
-        basedir: ['<%= yeoman.dist %>']
+        basedir: ['<%= yeoman.dist %>'],
+        dirs: ['<%= yeoman.dist %>']
       }
     },
 
